@@ -1,0 +1,121 @@
+
+
+div>.jumbotron{
+    margin-top: 2%;
+    background-color: #ffffff;
+    margin-top: 70px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+.heading{
+    align-items: center;
+}
+.st2{
+      text-align: center;      
+      padding: 10px;
+      margin: 2%;
+      color: #666666;
+      
+  }
+ .btn{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.navbar{
+    background-color: #0e0c0c;
+}
+.nav-link {
+    color: #ffece5;
+}
+
+.navbar-brand{
+    color: #ffece5; 
+}
+
+.navbar-brand:hover{
+    color: #575757;
+}
+
+.nav-link:hover{
+    color: #666666;
+}
+
+.jumbotron{
+    color: #666666;
+}
+
+div>.col-sm{
+    color: #666666;
+}
+
+.st4{
+    width: 50%;
+    margin: auto;
+    
+}
+.vid{
+    width: 100%;
+    height: 625px;
+}
+.img-box{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+}
+
+#al{
+    margin-top: 30px;
+}
+
+div.card-header{
+    background-color: #ff884d;
+    color: #ffece5;
+}
+
+div.card-body{
+    background-color: #ffece5;
+    color: #575757;
+}
+
+@media(max-width: 1200px) {
+    .vid{
+        width: 100%;
+        height: 523px;
+    }
+}
+
+@media(max-width: 992px) {
+    .vid{
+        width: 100%;
+        height: 388px;
+    }
+}
+
+@media(max-width: 763px) {
+    .vid{
+        width: 100%;
+        height: 287px;
+    }
+}
+@media(max-width: 576px) {
+    .vid{
+        width: 100%;
+        height: 297px;
+    }
+}
