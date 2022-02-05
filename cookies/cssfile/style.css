@@ -1,0 +1,22 @@
+/* body 
+{
+    background-color:rgb(17, 16, 16);
+} */
+
+#setC{
+    align-self: center;
+
+    /* position: absolute;
+    right: 625px; */
+    height: 30px; width: 150px;
+    text-align: center;
+    padding:5px;
+    text-decoration: sienna;
+    display: inline-block;
+    scrollbar-arrow-color: springgreen;
+}
+#getC{
+    height: 30px; width: 150px;
+    position: absolute;
+    right: 625px;
+}
